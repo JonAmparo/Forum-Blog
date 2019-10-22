@@ -1,0 +1,32 @@
+h1{
+	text-align: center;
+}
+
+.content1{
+	width: 750px;
+	margin: 0 auto;
+	border: 2px solid green;
+	border-radius: 5px;
+	padding: 70px;
+}
+
+.align{
+	display: inline-block;;
+	width: 150px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: right;
+	padding:0;
+} 
+
+.error{
+	background: lightgray;
+	font-size: 11px;
+	padding: 2px;
+	color: firebrick;
+	display: none;
+}
+
+.image_wrapper { 
+	display: inline-block; padding: 4px; border: 1px solid #fff; background: none; margin-bottom: 10px;
+}
