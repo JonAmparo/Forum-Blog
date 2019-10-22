@@ -1,6 +1,6 @@
 # Forum Blog
 
-This is a forum/blog that allows users to sign in, edit their profile, register to the website, and post on a forum where everything that created, updated, and deleted will be store in a database using SQL.
+This is a forum/blog that allows users to sign in, edit their profile, register to the website, and post on a forum where everything that created, updated, and deleted.
 
 # What I Learned
 
