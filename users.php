@@ -106,7 +106,7 @@ return  $count;
 
                     <form method="post" action="index.php">
                         <div>
-                            <img src="<?php echo $x_avatar ?>" alt="img">
+                            <img src="<?php echo $x_avatar ?>" alt="img" class="img-box">
                         </div>
                         <label>
                             <h4><?php echo $x_fname ?></h4>
@@ -180,7 +180,10 @@ return  $count;
 else{?>
 
                 <h2>You have to log in before viewing users...</h2>
-                <img src="images/george.jpg" alt="George" style=" height: 300px;">
+                <h3>1. Register an account</h3>
+                <h3>2. Sign in with the account you registered with</h3>
+                <h3>3. Now you have access to the blog!</h3>
+                <!-- <img src="images/george.jpg" alt="George" style=" height: 300px;"> -->
 
                 <?php } ?>
             </div>

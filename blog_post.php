@@ -98,7 +98,7 @@ include('header.php');
           <form method="post" action="index.php">
             <div>
              
-             <img src="<?php echo $x_avatar ?>" alt="img">       
+             <img src="<?php echo $x_avatar ?>" alt="img" class="img-box">       
 
            </div>
            
@@ -164,7 +164,10 @@ include('header.php');
   else{?> 
 
     <h2>You have to log in before posting</h2>
-    <img src="images/george.jpg" alt="George" style=" height: 300px;">
+    <h3>1. Register an account</h3>
+    <h3>2. Sign in with the account you registered with</h3>
+    <h3>3. Now you have access to the blog!</h3>
+  
 
   <?php } ?>
 </div>

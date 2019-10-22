@@ -164,7 +164,7 @@ else {?>
 <h3>Welcome back</h3> 
 <form method="post" id ="logout_form"  name ="logout_form" action="#">
     <div>
-        <img src="<?php echo $x_avatar ?>" alt="img">
+        <img src="<?php echo $x_avatar ?>" alt="img" class="img-box" >
     </div>
     <h4> <?php echo $x_fname ?></h4>
     <div><h4> Number of Post: <?php echo (blogCount_individual ($x_user) )?></h4></div>
@@ -203,7 +203,10 @@ else {?>
     else{ ?>
 
     <h2>You have to log in first...</h2>
-    <img src="images/george.jpg" alt="George" style=" height: 300px;">
+    <h3>1. Register an account</h3>
+    <h3>2. Sign in with the account you registered with</h3>
+    <h3>3. Now you have access to the blog!</h3>
+    <!-- <img src="images/george.jpg" alt="George" style=" height: 300px;"> -->
     <?php }
     ?>
 
